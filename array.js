@@ -14,5 +14,5 @@ console.log(position)
 
 console.log(friendsAge.length) //array er length bahir kora
 
-friendsAge.pop();
+friendsAge.pop(); // array er last element bahir kora
 console.log(friendsAge)
