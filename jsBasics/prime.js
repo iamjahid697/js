@@ -7,5 +7,5 @@ function isPrime(n){
     }
     return 'Your number is a prime number';
 }
-var result = isPrime(139);
+var result = isPrime(57);
 console.log(result);
