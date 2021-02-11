@@ -1,19 +1,19 @@
 var speech ="I am  a good person. I don't snore at night";
-var count = 0;
+var totalRent = 0;
 for(var i= 0; i<speech.length;i++){
     var char = speech[i];
      if(char == " " && speech[i-1] != " "){
-        count++;
+        totalRent++;
     }
 }
-count++;
-console.log(count);
+totalRent++;
+console.log(totalRent);
 
 //another
 
 var sentence = "I am hardworking. I am serious. I am sure I will do it";
 
-var count = 0;
+var totalRent = 0;
 
 for (var i = 0; i < sentence.length; i++) {
 
@@ -21,11 +21,11 @@ for (var i = 0; i < sentence.length; i++) {
 
     if (letter == 'a') {
 
-        count++;
+        totalRent++;
 
     }
 
 }
 
-console.log(count)
+console.log(totalRent)
 

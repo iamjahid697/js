@@ -1,4 +1,4 @@
-function animalCalculation(depth){
+function hotelCost(depth){
     var animal = 0;
     if (depth <= 10) {
         animal = depth * 50;
@@ -18,5 +18,5 @@ function animalCalculation(depth){
     }
     return animal;
 }
-var count = animalCalculation(25);
-console.log(count);
+var totalRent = hotelCost(25);
+console.log(totalRent);
